@@ -16,6 +16,11 @@ h1, h2 {
   line-height: 6rem;
 }
 
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 
 
 
@@ -26,6 +31,7 @@ h1, h2 {
   letter-spacing: 0%;
   text-align: center;
 
+  background: rgba(57, 62, 70, 0.75);
   border-radius: 1.5rem;
   cursor: pointer;
   display: inline-block;
@@ -33,9 +39,15 @@ h1, h2 {
   padding: 0.63rem 2rem 0.63rem 2rem;
 }
 
+.colored-button {
+  background: #00adb5;
+}
+
 .colored-text {
   color: #00adb5;
 }
+
+
 
 
 .head {
@@ -69,6 +81,8 @@ h1, h2 {
 }
 
 
+
+
 .home {
   display: flex;
 }
@@ -88,17 +102,14 @@ h1, h2 {
 }
 
 .home__button-hire {
-  background: #00adb5;
   margin-right: 1.5rem;
-}
-
-.home__button-cv {
-  background: rgba(57, 62, 70, 0.75);
 }
 
 .home__image {
   padding: 5.85rem 6rem 0 0;
 }
+
+
 
 
 .about {
@@ -113,10 +124,7 @@ h1, h2 {
   margin-right: 12.13em;
 }
 
-.about__title {
-  font-size: 4rem;
-  font-weight: 700;
-}
+.about__title {}
 
 .about__text {
   color: rgba(238, 238, 238, 0.75);
@@ -130,3 +138,37 @@ h1, h2 {
 }
 
 
+
+
+.projects {
+  background-image: url(../img/projects_bg.svg);
+}
+
+.projects__cont {
+  padding: 9.125rem 0 0 6rem;
+}
+
+.projects__buttons-cont {
+  margin-top: 1.5rem;
+}
+
+.projects__button {
+  margin-right: 1rem;
+}
+
+.projects__images-cont {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.projects__image {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  backdrop-filter: blur(0.25rem);
+  background: rgba(57, 62, 70, 0.5);
+  width: 24.13rem;
+  height: 17.5rem;
+  padding: 50px 80px;
+  margin-right: 3rem;
+}
