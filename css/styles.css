@@ -184,7 +184,7 @@ h2 {
 }
 
 .contact__image {
-
+  padding-left: 10rem;
 }
 
 .contact__right-cont {
@@ -230,4 +230,9 @@ h2 {
   margin-top: 1rem;
   width: 37.5rem;
   height: 17.5rem;
+}
+
+.contact__button {
+  background-color: #00adb5;
+  margin-top: 2rem;
 }
