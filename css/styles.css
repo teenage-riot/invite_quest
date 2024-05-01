@@ -114,7 +114,6 @@ h2 {
 
 .about {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .about__cont {
@@ -123,8 +122,6 @@ h2 {
   width: 31rem;
   margin-right: 12.13em;
 }
-
-.about__title {}
 
 .about__text {
   color: rgba(238, 238, 238, 0.75);
@@ -171,4 +168,66 @@ h2 {
   height: 17.5rem;
   padding: 50px 80px;
   margin-right: 3rem;
+}
+
+
+
+
+.contact__cont {
+  display: flex;
+}
+
+.contact__left-cont {
+  padding: 9.8rem 0 0 6rem;
+  margin-right: 6rem;
+  width: 50%;
+}
+
+.contact__image {
+
+}
+
+.contact__right-cont {
+  padding: 9.8rem 6rem 0 0;
+  width: 50%;
+}
+
+.contact__upper-form {
+  display: flex;
+}
+
+.contact__label {
+  display: block;
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 1.69rem;
+}
+
+.contact__input {
+  display: block;
+  background: rgba(57, 62, 70, 0.5);
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+
+  color: #fff;
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 1.69rem;
+  padding-left: 1.5rem;
+}
+
+.contact__upper-form .contact__input {
+  width: 18rem;
+  height: 3.69rem;
+  margin: 1rem 2rem 0 0;
+}
+
+.contact__lower-form {
+  margin-top: 2rem;
+}
+
+.contact__lower-form .contact__input {
+  margin-top: 1rem;
+  width: 37.5rem;
+  height: 17.5rem;
 }
