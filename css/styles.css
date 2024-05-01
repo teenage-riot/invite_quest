@@ -3,10 +3,28 @@ body {
 }
 
 
+.button {
+  color: #eeeeee;
+  font-family: Poppins;
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 1.69rem;
+  letter-spacing: 0%;
+  text-align: center;
+
+  border-radius: 1.5rem;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.5rem;
+  padding: 0.63rem 2rem 0.63rem 2rem;
+}
+
+
 .head {
   border: 2px solid #fff;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .head__logo-cont {
@@ -39,5 +57,83 @@ body {
   line-height: 1.69rem;
   display: inline-block;
   margin: 0 1rem;
+}
+
+
+.home {
+  border: 2px solid #fff;
+}
+
+.home__cont {
+  border: 1px solid #fff;
+  /* display: inline-block; */
+  /* padding: 13.69rem 47.38rem 22.13rem 6rem; */
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; Выравниваем дочерние элементы по вертикали */ */
+  /* width: 50%; */
+
+  /* width: 36.63rem;
+  height: 17.94rem; */
+
+/* position: absolute;
+width: 36.63rem;
+height: 17.94rem;
+left: 6rem;
+right: 47.38rem;
+top: 13.69rem;
+bottom: 22.13rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0rem;  */
+}
+
+.home__title {
+  color: #eeeeee;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.home__title-colored {
+  color: #00adb5;
+}
+
+.home__buttons-cont {
+  margin-top: 3rem;
+}
+
+.home__button-hire {
+  background: #00adb5;
+  margin-right: 1.5rem;
+}
+
+.home__button-cv {
+  background: rgba(57, 62, 70, 0.75);
+}
+
+
+
+.home__image {
+  /* border: 1px solid #fff; */
+  /* display: inline-block;
+  width: 30%;
+  flex-shrink: 0; */
+
+  /* Group 2373 */
+/* position: absolute;
+width: 33.44rem;
+height: 36.25rem;
+left: 50.56rem;
+right: 6rem;
+top: 11.38rem;
+bottom: 6.13rem; */
 }
 
