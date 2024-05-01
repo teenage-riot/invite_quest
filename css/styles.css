@@ -1,3 +1,7 @@
+* {
+  border: 1px solid #fff;
+}
+
 body {
   background: #222831;
 }
@@ -5,7 +9,7 @@ body {
 
 .button {
   color: #eeeeee;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 1.13rem;
   font-weight: 700;
   line-height: 1.69rem;
@@ -21,14 +25,12 @@ body {
 
 
 .head {
-  border: 2px solid #fff;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .head__logo-cont {
-  border: 1px solid #fff;
   width: 18.81rem;
   height: 6rem;
 }
@@ -43,7 +45,6 @@ body {
 }
 
 .head__links-cont {
-  border: 1px solid #fff;
   padding: 1.88rem 6rem 1.88rem 6rem;
   text-align: center;
 }
@@ -61,33 +62,12 @@ body {
 
 
 .home {
-  border: 2px solid #fff;
+  display: flex;
 }
 
 .home__cont {
-  border: 1px solid #fff;
-  /* display: inline-block; */
-  /* padding: 13.69rem 47.38rem 22.13rem 6rem; */
-  display: flex;
-  /* flex-direction: row; */
-  /* align-items: center; Выравниваем дочерние элементы по вертикали */ */
-  /* width: 50%; */
+  padding: 8.16rem 0 0 6rem;
 
-  /* width: 36.63rem;
-  height: 17.94rem; */
-
-/* position: absolute;
-width: 36.63rem;
-height: 17.94rem;
-left: 6rem;
-right: 47.38rem;
-top: 13.69rem;
-bottom: 22.13rem;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0rem;  */
 }
 
 .home__title {
@@ -119,21 +99,7 @@ padding: 0rem;  */
   background: rgba(57, 62, 70, 0.75);
 }
 
-
-
 .home__image {
-  /* border: 1px solid #fff; */
-  /* display: inline-block;
-  width: 30%;
-  flex-shrink: 0; */
-
-  /* Group 2373 */
-/* position: absolute;
-width: 33.44rem;
-height: 36.25rem;
-left: 50.56rem;
-right: 6rem;
-top: 11.38rem;
-bottom: 6.13rem; */
+  padding: 5.85rem 6rem 0 0;
 }
 
