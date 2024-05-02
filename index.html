@@ -41,7 +41,7 @@
           Hire me
         </a>
         <a class="home__button-cv button">
-          Download CV &nbsp; 
+          Download CV &nbsp;
           <img src="img/download.svg" alt="Download">
         </a>
       </div>
@@ -103,21 +103,20 @@
     </div>
     <div class="contact__right-cont">
       <div class="contact__upper-form">
-          <label class="contact__label">
-            Your name
-            <input class="contact__input" type="text" placeholder="Name">
-          </label>
-          <label class="contact__label">
-            Your email
-            <input class="contact__input" type="text" placeholder="Email">
-          </label>
+        <div class="contact__input-wrapper">
+          <input class="contact__input" id="your-name" type="text" placeholder="Name">
+          <label class="contact__label" for="your-name">Your name</label>
+        </div>
+        <div class="contact__input-wrapper">
+          <input class="contact__input" id="your-email" type="text" placeholder="Email">
+          <label class="contact__label" for="your-email">Your email</label>
+        </div>
       </div>
       <div class="contact__lower-form">
-        <label class="contact__label">
-          Your message
-          <!-- <input class="contact__input" type="textarea" placeholder="Message"> -->
-          <textarea class="contact__input" placeholder="Message"></textarea>
-        </label>
+        <div class="contact__input-wrapper">
+          <textarea class="contact__input" id="your-message" placeholder="Message"></textarea>
+          <label class="contact__label" for="your-message">Your message</label>
+        </div>
       </div>
       <a class="contact__button button colored-button">
         Send Message &nbsp;

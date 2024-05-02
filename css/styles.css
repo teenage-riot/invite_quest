@@ -3,7 +3,7 @@
 }
 
 body {
-  color: #eeeeee;
+  color: #eee;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   letter-spacing: 0%;
@@ -23,6 +23,12 @@ h2 {
 
 h1:hover, h2:hover, p:hover {
   cursor: default;
+}
+
+/* для отмены изменения цвета фона формы ввода при автозаполнении */
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px rgba(57, 62, 70) inset;
+  -webkit-text-fill-color: #eee;
 }
 
 
@@ -57,12 +63,12 @@ h1:hover, h2:hover, p:hover {
 }
 
 .colored-button:hover {
-  border-color: #eeeeee;
+  border-color: #eee;
 }
 
 .colored-button:active {
   border-color: violet;
-  color: #eeeeee;
+  color: #eee;
 }
 
 .colored-text {
@@ -244,11 +250,17 @@ h1:hover, h2:hover, p:hover {
   display: flex;
 }
 
+.contact__input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact__label {
   display: block;
   font-size: 1.13rem;
   font-weight: 700;
   line-height: 1.69rem;
+  order: 0;
 }
 
 .contact__input {
@@ -256,16 +268,20 @@ h1:hover, h2:hover, p:hover {
   background: rgba(57, 62, 70, 0.5);
   border-radius: 1rem;
   padding-left: 1.5rem;
+  order: 1;
 
   color: #fff;
   font-size: 1.13rem;
   font-weight: 700;
   line-height: 1.69rem;
-  padding-left: 1.5rem;
+}
+
+.contact__input:focus {
+  border: 3px solid #00adb5;
 }
 
 .contact__input:focus + .contact__label {
-  color: blue; /* Изменяем цвет метки при фокусировке на поле ввода */
+  color: #00adb5; 
 }
 
 .contact__upper-form .contact__input {
