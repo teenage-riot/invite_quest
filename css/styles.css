@@ -21,6 +21,9 @@ h2 {
   font-weight: 700;
 }
 
+h1:hover, h2:hover, p:hover {
+  cursor: default;
+}
 
 
 
@@ -32,11 +35,21 @@ h2 {
   text-align: center;
 
   background: rgba(57, 62, 70, 0.75);
+  border: 3px solid transparent;
   border-radius: 1.5rem;
   cursor: pointer;
   display: inline-block;
   line-height: 1.5rem;
   padding: 0.63rem 2rem 0.63rem 2rem;
+}
+
+.button:hover {
+  border-color: violet;
+  /* border-color: #00adb5; */
+}
+
+.button:active {
+  color: violet;
 }
 
 .colored-button {
@@ -45,6 +58,15 @@ h2 {
 
 .colored-text {
   color: #00adb5;
+}
+
+.colored-text:hover {
+  color: violet;
+}
+
+.hover-color:hover {
+  /* color: #00adb5; */
+  color: violet;
 }
 
 
@@ -67,6 +89,15 @@ h2 {
   font-weight: 700;
 }
 
+.head__logo a:hover {
+  color: #00adb5;
+  cursor: pointer;
+}
+
+.head__logo a:active {
+  color: violet;
+}
+
 .head__links-cont {
   padding: 1.88rem 6rem 1.88rem 6rem;
   text-align: center;
@@ -78,6 +109,15 @@ h2 {
   line-height: 1.69rem;
   display: inline-block;
   margin: 0 1rem;
+}
+
+.head__link:hover {
+  color: #00adb5;
+  cursor: pointer;
+}
+
+.head__link:active {
+  color: violet;
 }
 
 
@@ -103,6 +143,16 @@ h2 {
 
 .home__button-hire {
   margin-right: 1.5rem;
+}
+
+.home__button-hire:hover {
+  background-color: #eeeeee;
+  border-color: #00adb5;
+  color: #00adb5;
+}
+
+.home__button-hire:active {
+  color: violet;
 }
 
 .home__image {
@@ -223,8 +273,7 @@ h2 {
   width: 37.5rem;
   height: 17.5rem;
   resize: none;
-  padding-top: 1.5rem;
-}
+  padding-top: 1.5rem;}
 
 .contact__button {
   background-color: #00adb5;
