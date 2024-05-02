@@ -230,6 +230,14 @@ input:-webkit-autofill {
   margin-right: 3rem;
 }
 
+.projects__image:active {
+  border: 4px violet solid;
+}
+
+.projects__image:active img {
+  filter: none;
+}
+
 
 
 
